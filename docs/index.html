@@ -61,7 +61,7 @@ pip install -e .</code></pre>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>You can then call its various methods for scraping bioRxiv. For example, to scrape all articles uploaded in 2018 under the subject area "Animal Behavior and Cognition"</p>
+<p>You can then call its various methods for scraping bioRxiv. For example, to scrape all articles uploaded in 2019 under the subject area "Animal Behavior and Cognition"</p>
 
 </div>
 </div>
@@ -71,7 +71,7 @@ pip install -e .</code></pre>
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">scraped_content</span> <span class="o">=</span> <span class="n">scraper</span><span class="o">.</span><span class="n">by_subject_area</span><span class="p">(</span><span class="s2">&quot;Animal Behavior and Cognition&quot;</span><span class="p">,</span> <span class="mi">2019</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">scraped_content</span> <span class="o">=</span> <span class="n">scraper</span><span class="o">.</span><span class="n">by_year</span><span class="p">(</span><span class="mi">2019</span><span class="p">,</span> <span class="n">subject_areas</span><span class="o">=</span><span class="s2">&quot;Animal Behavior and Cognition&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
