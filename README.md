@@ -42,7 +42,7 @@ You can then call its various methods for scraping bioRxiv. For example, to scra
 <div class="input_area" markdown="1">
 
 ```python
-scraped_content = scraper.by_subject_area("Animal Behavior and Cognition", 2019)
+scraped_content = scraper.by_year(2019, subject_areas="Animal Behavior and Cognition")
 ```
 
 </div>
